@@ -1,44 +1,44 @@
 .friend-list {
-    display: grid;
-    grid-template-rows: 1fr;
-    gap: 20px;
-    padding: 0;
-    min-width: 800px;
-    list-style: none;
+  display: grid;
+  grid-template-rows: 1fr;
+  gap: 20px;
+  padding: 0;
+  min-width: 800px;
+  list-style: none;
 }
 
 .item {
-    display: flex;
-    padding: 24px 32px;
-    align-items: center;
-    background-color: #cbebf6;
-    border-radius: 16px;
-    box-shadow: 10px 5px 5px #aaa;
+  display: flex;
+  padding: 24px 32px;
+  align-items: center;
+  background-color: #cbebf6;
+  border-radius: 16px;
+  box-shadow: 10px 5px 5px #aaa;
 }
 
 .status {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
 
 .status--online {
-    background-color: #008000;
+  background-color: #008000;
 }
 
 .status--offline {
-    background-color: #ff0000;
+  background-color: #ff0000;
 }
 
 .avatar {
-    flex-grow: 1;
-    max-width: 120px;
-    margin: 0 32px;
-    background-color: #fff;
-    border-radius: 8px;
+  flex-grow: 1;
+  max-width: 120px;
+  margin: 0 32px;
+  background-color: #fff;
+  border-radius: 8px;
 }
 
 .name {
-    margin: 0;
-    font-size: 48px;
+  margin: 0;
+  font-size: 48px;
 }

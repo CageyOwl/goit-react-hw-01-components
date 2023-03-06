@@ -1,14 +1,14 @@
-import Profile from "./Profile/Profile";
-import user from "user.json";
+import Profile from './Profile/Profile';
+import user from 'user.json';
 
-import Statistics from "./Statistics/Statistics";
+import Statistics from './Statistics/Statistics';
 import data from 'data.json';
 
 import friends from 'friends.json';
-import FriendsList from "./FriendsList/FriendsList";
+import FriendsList from './FriendsList/FriendsList';
 
 import transactions from 'transactions.json';
-import TransactionHistory from "./TransactionHistory/TransactionHistory";
+import TransactionHistory from './TransactionHistory/TransactionHistory';
 
 export const App = () => {
   return (
@@ -21,7 +21,7 @@ export const App = () => {
         padding: '40px 0',
         justifyItems: 'center',
         fontSize: 40,
-        color: '#010101'
+        color: '#010101',
       }}
     >
       <Profile
