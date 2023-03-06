@@ -20,9 +20,6 @@ export const App = () => {
         gridTemplateRows: '1fr',
         padding: '40px 0',
         justifyItems: 'center',
-        // display: 'flex',
-        // justifyContent: 'center',
-        // alignItems: 'center',
         fontSize: 40,
         color: '#010101'
       }}
