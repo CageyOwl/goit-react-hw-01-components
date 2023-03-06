@@ -3,10 +3,10 @@ import css from './TransactionHistory.module.css';
 
 export default function Transaction({ type, amount, currency }) {
   return (
-    <tr>
-      <td>{type}</td>
-      <td>{amount}</td>
-      <td>{currency}</td>
+    <tr className={css['transaction-row']}>
+      <td className={css['transaction-detail']}>{type}</td>
+      <td className={css['transaction-detail']}>{amount}</td>
+      <td className={css['transaction-detail']}>{currency}</td>
     </tr>
   );
 }

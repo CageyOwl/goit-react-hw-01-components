@@ -5,11 +5,11 @@ import css from './TransactionHistory.module.css';
 export default function TransactionHistory({ items }) {
   return (
     <table className={css['transaction-history']}>
-      <thead>
+      <thead className={css['transaction-header']}>
         <tr>
-          <th>Type</th>
-          <th>Amount</th>
-          <th>Currency</th>
+          <th className={css['header-item']}>Type</th>
+          <th className={css['header-item']}>Amount</th>
+          <th className={css['header-item']}>Currency</th>
         </tr>
       </thead>
 

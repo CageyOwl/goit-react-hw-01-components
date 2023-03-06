@@ -2,30 +2,30 @@
   width: 80%;
 }
 
-.transaction-history thead {
+.transaction-header {
   font-size: 40px;
   text-align: center;
   color: #fff;
 }
 
-.transaction-history thead th {
+.header-item {
   width: 33%;
   padding: 40px 0;
   background-color: rgb(77, 166, 166);
 }
 
-.transaction-history tbody tr {
+.transaction-row {
   text-align: center;
 }
 
-.transaction-history tbody tr:nth-child(2n + 1) {
+.transaction-row:nth-child(2n + 1) {
   background-color: #fff;
 }
 
-.transaction-history tbody tr:nth-child(2n) {
+.transaction-row:nth-child(2n) {
   background-color: #eee;
 }
 
-.transaction-history tbody td {
+.transaction-detail {
   padding: 20px;
 }
